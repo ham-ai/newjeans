@@ -49,6 +49,10 @@ a{
     color: #fff;
 }
 
+a:hover{
+    color: rgb(25, 96, 244);
+}
+
 .img img{
     width: 65vw;
     height: 70vh;
@@ -68,6 +72,44 @@ a{
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(147,178,243,1) 100%); 
 }
 
+/*Story Section */
+#story{
+    display: flex;
+position: relative;
+width: 100vw;
+height: 100vh;
+flex-direction: row;
+align-items: center;
+}
+
+#imgstory img{
+    width: 40vw;
+height: 50vh;
+display: flex;
+
+}
+
+#storytxt{
+    display: flex;
+justify-content: space-between;
+height: 50vh;
+width: 50vw;
+flex-direction: column;
+padding: 3rem;
+margin: 5rem;
+}
+
+#storytxt h1{
+    text-transform: uppercase;
+}
+
+#storytxt a{
+    color: #93b2f3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/**/
 
 
 
