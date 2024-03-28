@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.cdnfonts.com/css/sanchez');
                 
-
-
 * {
     margin: 0;
     border: 0;
@@ -20,6 +18,8 @@ body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 
 section {
@@ -29,12 +29,13 @@ section {
     flex-wrap: nowrap;
     scroll-snap-align: center;
     background-color: #fff;
-    z-index: -1;
 }
 
 h1{
     font-weight: 500;
     font-size: 3rem;
+    text-transform: uppercase;
+    color: #02156a;
 }
 
 /* header */
@@ -75,7 +76,6 @@ a:hover {
     align-items: center;
 }
 
-
 #home {
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(147, 178, 243, 1) 100%);
@@ -100,7 +100,6 @@ a:hover {
     z-index: 1;
 
 }
-
 
 #storytxt {
     display: flex;
@@ -134,12 +133,8 @@ a:hover {
 }
 
 #albums h1{
-    text-transform: uppercase;
-    color: #02156a;
     height: auto;
     margin: 0;
-    
-
 }
 
 /*album cards*/
@@ -175,6 +170,17 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+    position: relative;
+}
+
+#albums .cards .cardbody{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2rem;
     background: linear-gradient(45deg, rgba(134,188,241,1) 0%, rgba(255,249,249,1) 49%, rgba(134,188,241,1) 100%); 
 }
@@ -183,6 +189,49 @@ a:hover {
     width: 10rem;
     height: 10rem;
 }
+
+/* member */
+
+#members{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#members .cardbody .cardimg{
+    position: absolute;
+}
+
+.text_member{
+    text-transform: uppercase;
+    font-size: x-large;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #02156a;
+}
+
+#members .cardbody{
+    border: 2px solid #02156a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
