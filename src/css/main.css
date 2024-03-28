@@ -104,6 +104,7 @@ a:hover {
 
 #storytxt h1 {
     text-transform: uppercase;
+    color: #02156a;
 }
 
 #storytxt a {
@@ -117,10 +118,29 @@ a:hover {
     display: flex;
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 #albums h1{
     text-transform: uppercase;
+    color: #02156a;
+}
+
+.cardimg{
+    width: 15rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_album{
+    width: 15rem;
+}
+
+.text_album p{
+    margin: 1rem;
 }
 
 .cards{
@@ -139,8 +159,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    background-color: antiquewhite;
-    border: 2px solid;
+    background: linear-gradient(45deg, rgba(134,188,241,1) 0%, rgba(255,249,249,1) 49%, rgba(134,188,241,1) 100%); 
 }
 
 .cardbody img{
