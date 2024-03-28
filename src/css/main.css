@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sanchez');
+                
+
 
 * {
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "sanchez", sans-serif;
 }
 
 body {
@@ -28,6 +31,13 @@ section {
     background-color: #fff;
     z-index: -1;
 }
+
+h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/* header */
 
 header {
     background-color: transparent;
@@ -66,13 +76,13 @@ a:hover {
 }
 
 
-
 #home {
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(147, 178, 243, 1) 100%);
 }
 
-/*Story Section */
+/* story */
+
 #story {
     display: flex;
     position: relative;
@@ -114,6 +124,7 @@ a:hover {
 }
 
 /* albums */
+
 #albums{
     display: flex;
     width: 100vw;
@@ -125,7 +136,13 @@ a:hover {
 #albums h1{
     text-transform: uppercase;
     color: #02156a;
+    height: auto;
+    margin: 0;
+    
+
 }
+
+/*album cards*/
 
 .cardimg{
     width: 15rem;
@@ -146,7 +163,7 @@ a:hover {
 .cards{
     display: flex;
     width: 100vw;
-    height: 90vh;
+    height: 65vh;
     justify-content: center;
     align-items: center;
 }
