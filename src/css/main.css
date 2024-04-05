@@ -31,13 +31,6 @@ section {
     background-color: #fff;
 }
 
-h1{
-    font-weight: 500;
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: #02156a;
-}
-
 /* header */
 
 header {
@@ -149,6 +142,7 @@ a:hover {
 
 .text_album{
     width: 15rem;
+    font-weight: bold;
 }
 
 .text_album p{
@@ -165,10 +159,10 @@ a:hover {
 
 .cardbody{
     width: 15rem;
-    height: 20rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 1rem;
     position: relative;
@@ -196,28 +190,70 @@ a:hover {
     display: flex;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+#members h1{
+    margin: 0;
+    font-weight: bolder;
+    font-size: xxx-large;
 }
 
 #members .cardbody .cardimg{
     position: absolute;
+    width: 15rem;
+    height: 15rem;
 }
 
 .text_member{
     text-transform: uppercase;
     font-size: x-large;
     width: 15rem;
-    height: 15rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: #02156a;
 }
 
+h1, .text_member h2{
+    font-weight: 500;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #02156a;
+}
+
+.img_txt{
+    z-index: 2;
+  width: 15rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.img_txt h2{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: -2rem;
+    color: #02156a;
+    text-transform: uppercase;
+}
+
+.img_txt h4{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: -3rem;
+    color: #9BB8F4;
+    
+}
+
 #members .cardbody{
-    border: 2px solid #02156a;
+    border: 2px solid #9BB8F4;
 }
 
 
